@@ -1,0 +1,60 @@
+a {
+color: #77aaff;
+text-decoration: none;
+}
+ 
+a:hover {
+color: #88bbff;
+text-decoration: underline;
+}
+
+body {
+background: #666;
+font-family: Arial, sans-serif;
+padding: 50px;
+}
+
+div#container {
+background: #000;
+margin: 0 auto 0 auto;
+padding: 20px 30px 20px 30px;
+max-width: 750px;
+}
+ 
+div#dinnerImages {
+  margin: 0 0 20px 0;
+}
+
+div#favourite {
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+
+div#image1 {
+  float: left;
+}
+
+div#versus {
+  color: white;
+  float: left;
+  margin: 100px 20px 0 20px;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+h1 {
+color: white;
+font-family: Arial, sans-serif;
+margin: 0 0 30px 0;
+padding: 0 0 0 0;
+text-align: center;
+font-size: 500%;
+}
+ 
+img.dinnerImage {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+}
